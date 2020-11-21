@@ -1,0 +1,2134 @@
+*{ margin:0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+/*font-family: 'Roboto', sans-serif;*/
+
+body{ 
+    background-color: #fcfcfc;
+    
+}
+.cabezote{
+width: 100%;
+background-color: #ffffff;
+box-shadow: 0px 3px 9px #bcbcbc;
+padding: 0px 40px 0px 0px;
+}
+
+#btn-menu{
+
+
+    
+    
+}
+
+.cabezote label{
+
+width: 30px;
+height: 30px;
+padding: 10px;
+}
+
+
+.cabezote label:hover{
+cursor: pointer;
+background: #bcbcbc;
+}
+
+
+@media(max-width:768px){
+    cabezote label{
+    display: block;
+    }
+    .bmenu{
+    position:absolute;
+    
+    background-color: #ffffff;
+    box-shadow: 0px 3px 9px #bcbcbc; 
+    width:70%;
+    margin-left: -70%;
+    }
+    .bmenu ul{
+    flex-direction: column;
+    }
+    b.menu li{
+
+    }
+    #btn-menu:checked ~ .bmenu{
+    margin: 0;
+        
+    }
+}
+
+.papa-cabezote{
+width: 100%;
+display: flex;
+position:relative;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+}
+.logo img{
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    
+}
+.bmenu{
+    top:35px;
+    bottom:;
+    right: ;
+    left: 120px ;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.bmenu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    top: 100px;
+ 
+
+}
+
+.bmenu a{
+    color: #bcbcbc;
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    
+}
+.bmenu a:hover{
+    border: 2px solid #9bd040;
+    border-radius: 35px; 
+}
+
+
+.historia{
+margin: 0;
+padding: 0;
+}
+
+.portada-historia{
+width: 40%;
+}
+
+input[type="search"]{
+    width: 55px; /*ancho por defecto*/
+    height: 45px;
+   background: #fff url('../imagenes/icono-buscador-2.png') no-repeat 1px;  /*icono lupa*/
+    padding: 12px 20px 9px 32px;
+    border: 2.4px solid #9bd040;
+    border-radius: 15em; 
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+
+    
+}
+input[type="search"]:focus{
+    width: 170px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    color: #a8a8a8;
+    background-color: #fff;
+ 
+}
+
+
+
+
+.boton-suscribete{
+background-color: #9bd040;
+border-radius: 25px;  
+height: 45px;
+width: 185px;
+font-family:'Roboto', sans-serif;500; 
+text-decoration: none;
+color: #fff;
+line-height: 46px;
+text-align: center;
+
+}
+
+
+
+.video-n{
+position: relative;
+width: 100%;    
+}
+.caja-video{
+width: 100%
+}
+.caja-video video{
+width: 100%
+}
+
+.caja-texto{
+position: absolute;  
+top: 50%;
+left: 50%;
+}
+
+.caja-texto h3{
+color: aliceblue;
+font-family: 'Roboto', sans-serif;700;
+font-size: 5em;
+transform: translate(-50%,-50%)
+}
+
+
+
+
+/*aqui empieza estilos del blog*/
+.imagen-blog{
+
+width: 100%;
+}
+
+.estructura-reciclaje-blog-uno {
+width: 70%;
+margin: auto;
+padding: 120px 0px 0px 0px;
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
+left: 20px;
+
+    
+}
+
+.imagen-reciclaje-uno {
+width: 30%;
+position: relative;
+
+}
+
+.imagen-reciclaje-uno img {
+border-radius:  75px;
+
+}
+
+.imagen-reciclaje-uno p {
+position: absolute;
+left: 10px;
+bottom: 290px;
+display: block;
+background-color: #eaf9bd;
+padding: 5px;
+font-family: 'Roboto',sans-serif;
+font-weight: 400;
+color: #7cb814;
+border-radius: 15px;
+}
+
+.texto-reciclaje{
+
+width: 43%;
+color: #777;
+font-family: 'Roboto', sans-serif;300;
+padding:  40px 20px 0px 0px;
+
+}
+
+
+.texto-reciclaje h1{
+font-weight: 300;
+font-size: 30px;
+color: #9bd040;
+}
+
+
+
+.texto-reciclaje p{
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+font-size: 19px;
+}
+
+.texto-reciclaje a{
+text-decoration: none;
+background-color: #9bd040;
+color: #fff;
+height: 40px;
+width: 178px;
+position: absolute;
+top: 360px;
+left: 720px;
+border-radius: 35px;
+text-align: center;
+line-height: 40px;
+font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 15px;
+}
+
+
+
+/*sección dos del blog*/
+
+.imagen-blog-dos{
+
+width: 100%;
+}
+
+.estructura-reciclaje-blog-dos {
+width: 70%;
+margin: auto;
+padding: 50px 0px 0px 0px;
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
+left: 20px;
+padding: 90px 0px 30px 0px;
+    
+}
+
+.imagen-reciclaje-blog-dos {
+width: 30%;
+position: relative;
+padding: 0px 10px;
+}
+
+.imagen-reciclaje-blog-dos img {
+border-radius:  75px;
+
+}
+
+.imagen-reciclaje-blog-dos p {
+position: absolute;
+left: 10px;
+bottom: 290px;
+display: block;
+background-color: #eaf9bd;
+padding: 5px;
+font-family: 'Roboto';
+font-weight: 400;
+color: #7cb814;
+border-radius: 15px;
+}
+
+.texto-reciclaje-blog-dos{
+
+width: 43%;
+color: #777;
+font-family: 'Roboto',sans-serif;
+padding:  30px 20px 0px 0px;
+}
+
+
+.texto-reciclaje-blog-dos h1{
+font-weight: 300;
+font-size: 30px;
+color: #9bd040;
+}
+
+
+
+.texto-reciclaje-blog-dos p{
+font-weight: 300;
+font-size: 19px;
+}
+
+.texto-reciclaje-blog-dos a{
+text-decoration: none;
+background-color: #9bd040;
+color: #fff;
+height: 40px;
+width: 178px;
+position: absolute;
+top: 330px;
+left: 720px;
+border-radius: 35px;
+text-align: center;
+line-height: 40px;
+font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 15px;
+}
+
+
+/*sección 3 del blog*/
+
+.imagen-blog-tres{
+
+width: 100%;
+}
+
+.estructura-reciclaje-blog-tres {
+width: 70%;
+margin: auto;
+padding: 50px 0px 0px 0px;
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
+left: 20px;
+padding: 90px 0px 30px 0px;
+    
+}
+
+.imagen-reciclaje-blog-tres {
+width: 30%;
+position: relative;
+padding: 0px 10px;
+}
+
+.imagen-reciclaje-blog-tres img {
+border-radius:  75px;
+
+}
+
+.imagen-reciclaje-blog-tres p {
+position: absolute;
+left: 10px;
+bottom: 290px;
+display: block;
+background-color: #eaf9bd;
+padding: 5px;
+font-family: 'Roboto',sans-serif;
+font-weight: 400;
+color: #7cb814;
+border-radius: 15px;
+}
+
+.texto-reciclaje-blog-tres{
+
+width: 43%;
+color: #777;
+font-family: 'Roboto', sans-serif;300;
+padding:  30px 20px 0px 0px;
+}
+
+
+.texto-reciclaje-blog-tres h1{
+font-weight: 300;
+font-size: 30px;
+color: #9bd040;
+}
+
+
+
+.texto-reciclaje-blog-tres p{
+font-weight: 300;
+font-size: 19px;
+}
+
+.texto-reciclaje-blog-tres a{
+text-decoration: none;
+background-color: #9bd040;
+color: #fff;
+height: 40px;
+width: 178px;
+position: absolute;
+top: 330px;
+left: 720px;
+border-radius: 35px;
+text-align: center;
+line-height: 40px;
+font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 15px;
+}
+
+
+
+
+/*sección 4 del blog*/
+
+
+
+.imagen-blog-cuatro{
+
+width: 100%;
+}
+
+.estructura-reciclaje-blog-cuatro {
+width: 70%;
+margin: auto;
+padding: 50px 0px 0px 0px;
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
+left: 30px;
+padding: 90px 0px 60px 0px;
+    
+}
+
+.imagen-reciclaje-blog-cuatro {
+width: 30%;
+position: relative;
+padding: 0px 10px;
+}
+
+.imagen-reciclaje-blog-cuatro img {
+border-radius:  75px;
+
+}
+
+.imagen-reciclaje-blog-cuatro p {
+position: absolute;
+left: 10px;
+bottom: 290px;
+display: block;
+background-color: #eaf9bd;
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+color: #7cb814;
+border-radius: 15px;
+}
+
+.texto-reciclaje-blog-cuatro{
+
+width: 43%;
+color: #777;
+font-family: 'Roboto', sans-serif;
+padding:  0px 20px 0px 0px;
+}
+
+
+.texto-reciclaje-blog-cuatro h1{
+font-weight: 300;
+font-size: 30px;
+color: #9bd040;
+}
+
+
+
+.texto-reciclaje-blog-cuatro p{
+font-weight: 300;
+font-size: 19px;
+}
+
+.texto-reciclaje-blog-cuatro a{
+text-decoration: none;
+background-color: #9bd040;
+color: #fff;
+height: 40px;
+width: 178px;
+position: absolute;
+top: 330px;
+left: 720px;
+border-radius: 35px;
+text-align: center;
+line-height: 40px;
+font-family: 'Roboto',sans-serif;300;
+}
+
+
+
+/*acá empieza el articulo*/
+
+
+.portada-reciclaje{
+width: 100%;
+padding: 60px 0px 0px 0px;
+}
+
+
+.estructura-reciclaje-articulo-uno{
+width: 70%;
+margin: auto;
+padding: 100px 0px 0px 0px;
+}
+
+.reciclaje-imagen-una img{
+padding: 0px 0px 0px 0px;
+border-radius: 85px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.texto-el-reciclaje-articulo-uno {
+padding: 30px 0px 0px 0px;
+margin-left: auto;
+margin-right: auto;
+width: 45%;
+font-family: 'Roboto',sans-serif;
+}
+
+.titulo-principal{
+font-family: 'Roboto',sans-serif;
+text-align: center;
+color: #9bd040;
+padding:  0px 0px 10px 0px;
+}
+.titulo-principal h1{
+font-weight: 300;
+font-size: 30px;
+}
+.texto-el-reciclaje-articulo-uno h1{
+font-weight: 400;
+position: absolute;
+color: #9bd040;
+}
+
+.texto-el-reciclaje-articulo-uno p{
+font-weight: 300;
+font-size: 20px;
+color: #777777;
+}
+
+
+articulo-parrafo-tres{
+font-weight: 300;
+font-size: 20px;
+}
+
+.cita{
+display:flex;
+justify-content: center;
+align-content: center;
+font-style: italic;
+width: 575px;
+position: relative;
+left: 40px;
+}
+
+/*sección dos del articulol*/
+
+
+.estructura-dos{
+width: 100%;
+}
+
+.forma-dos{
+width: 70%;
+margin: auto;
+padding: 30px 0px 0px 0px;   
+}
+
+.reciclaje-imagen-dos img{
+border-radius: 85px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.reciclaje-imagen-tres{
+
+
+}
+
+.reciclaje-texto-dos{
+padding: 30px 0px 0px 0px;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+font-family: 'Roboto',sans-serif;300;
+}
+
+
+.reciclaje-texto-dos img{
+border-radius: 85px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.reciclaje-texto-dos h1{
+font-family: 'Roboto',sans-serif;
+font-weight: 400;
+color: #9bd040;   
+}
+
+.reciclaje-texto-dos p{
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+font-size: 19px;
+ color: #777777;   
+}
+
+.fuentes-de-informaicion{
+font-style: italic;
+font-size: 6px;
+width: 650px;
+}
+
+/*sección de redes sociales*/
+
+.compartir-redes{
+width: 100%;
+
+}
+
+.redessociales{
+width: 70%;
+margin: auto;
+padding: 30px 0px 0px 0px; 
+
+}
+
+.redessociales h1{
+padding: 30px 0px 0px 0px;
+text-align: center;
+font-family: 'Roboto',sans-serif;
+font-weight: 400;
+color: #59840e;   
+font-size: 1.2em;
+}
+
+.social-media {
+display: flex;
+justify-content: center;
+
+
+}
+
+
+.facebook-social-media{
+float: left;
+padding: 5px 0px; 20px 0px;
+
+}
+
+.twitter-social-media{
+float: left;
+padding: 5px 5px; 0px 0px;
+
+}
+
+.instagram-social-media{
+float: left;
+padding: 5px 0px; 0px 0px;
+}
+
+
+/*Aquí empieza cónocenos*/
+
+
+.conocenos-portada{
+width: 100%;
+
+    
+}
+
+.estructura-conocenos{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 0px 0px;
+position: relative;
+left: 0px
+}
+
+.texto-conocenos-uno{
+width: 35%;
+font-family: 'Roboto',sans-serif;
+color: #777;
+    
+}
+
+.imagen-conocenos-uno{   
+width: 38%;
+}
+
+.imagen-conocenos-uno img{
+padding: 25px;
+border-radius: 85px;
+}
+
+.texto-conocenos-uno h1{
+font-weight: 300;
+font-size: 30px;
+color: #9bd040;
+}
+
+.texto-conocenos-uno p{
+font-weight: 300;
+font-size: 19px;
+}
+
+
+
+/*sección dos de conocenos*/
+
+.imagen-dos-trabajo{
+width: 100%;
+}
+
+.imagen-rectangular{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center; 
+padding: 0px 0px 30px 0px; 
+position: relative;
+left: 0px;
+
+}
+
+.imagen-rectangular img{
+width: 100%;
+border-radius: 65px;
+width: 70%;    
+}
+
+
+/*sección tres de conocenos*/
+
+
+.conocenos-portada-mision{
+width: 100%;
+
+
+}
+
+.estructura-conocenos-mision{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 0px;
+
+}
+
+.texto-conocenos-mision{
+width: 35%;
+font-family: 'Roboto',sans-serif;200;
+color: #777;
+
+}
+
+.texto-conocenos-mision h1{
+font-weight: 300;
+font-size: 30px;
+color: #9bd040;
+}
+.imagen-mision{
+width: 30%;
+padding: 0px 0px 0px 30px;
+}
+
+.imagen-mision img{
+border-radius: 85px;   
+   
+}
+.texto-conocenos-mision p{
+font-weight: 300;
+font-size: 19px;    
+}
+
+/*sección cuatro*/
+
+.imagen-cuatro{
+width: 100%;   
+}
+
+.imagen-rectangular-cuatro {
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center; 
+padding: 30px 0px 30px 0px; 
+position: relative;
+left: 10px;
+}
+
+.imagen-rectangular-cuatro img{
+width: 100%;
+border-radius: 65px;
+width: 70%; 
+}
+
+/*sección cinco conocenos*/
+
+
+.conocenos-portada-cinco{
+width: 100%;
+}
+
+.estructura-conocenos-cinco{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center; 
+position: relative;
+left: 0px;
+}
+
+.texto-conocenos-cinco{
+width: 35%;
+font-family: 'Roboto',sans-serif;
+color: #777;
+}
+
+.texto-conocenos-cinco h1{
+font-weight: 300;
+font-size: 30px;
+color: #9bd040;
+    
+}
+.imagen-conocenos-cinco{
+width: 38%;
+}
+
+.imagen-conocenos-cinco img{
+border-radius: 85px;   
+padding: 25px;
+}
+
+.texto-conocenos-cinco p {
+font-weight: 300;
+font-size: 19px;
+}
+
+
+/*sección seis concenos*/
+
+.video-conoce-ralu{
+width: 100%;
+
+}
+
+.estructura-video-conoce-ralu{
+width: 70%;
+margin: auto;
+padding: 10px;
+position: relative;
+justify-content: center;
+align-content: center;
+display: flex;
+}
+
+
+
+
+
+iframe{
+padding: 50px 0px 0px 0px;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center; 
+width: 800px;
+height: 520px;
+
+
+
+}
+
+
+.video-ralu-titulo h1{
+text-align: center;
+margin: auto;
+color: #9bd040;
+font-size: 1.8em;
+font-family: 'Roboto', serif;
+font-weight: 300;
+font-size: 29px;
+          
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*valores de la marca sección seis*/
+
+
+.iconos-valores{
+width: 100%;  
+
+ 
+
+}
+.estructura-valores{
+width: 70%;
+margin: auto;
+padding: 0px 0px 0px 0px;
+position: relative;
+left: 25px;
+
+}
+
+.imagenes-iconos{
+
+display: flex;
+justify-content: center;
+}
+
+.imagenes-honestidad{
+padding: 0px 75px 20px 0px;
+}
+
+.imagenes-Respeto{
+
+padding: 0px 65px 20px 0px;
+}
+
+.imagenes-Responsabilidad{
+padding: 0px 25px 20px 0px;
+}
+.textos-valores{
+text-align: center;
+margin: auto;
+font-size: 1.1em;
+ 
+}
+
+.titulo-valores h1{
+padding: 30px 0px 20px 0px;   
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 30px;
+color: #9bd040;
+
+}
+
+
+.textos-valores {
+padding: 15px 48px 0px 0px;
+display: flex;
+font-family: 'Roboto', sans-serif;
+color: #777;
+text-decoration: none;
+color: #9bd040;
+}
+
+.textos-valores p {
+padding: 10px;
+position: relative;
+top: -40px;
+font-weight: 300;
+}
+
+.textos-valores-uno {
+position: absolute;
+left: 330px;
+}
+
+
+.textos-valores-dos {
+position: absolute;
+left: 370px;
+}
+
+.textos-valores-tres {
+position: absolute;
+left: 390px;
+}
+
+
+/*Aquí empieza la sección de manualidades*/
+
+
+.video-manualidad{
+width: 100%;
+}
+
+.estructura-video{
+width: 70%;
+margin: auto;
+padding: 50px;
+position: relative;
+top: 40px;
+justify-content: center;
+align-content: center;
+display: flex;
+}
+
+
+
+
+
+iframe{
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center; 
+width: 800px;
+height: 520px;
+
+
+
+}
+
+
+.botella-titulo h1{
+text-align: center;
+margin: auto;
+color: #9bd040;
+font-size: 1.8em;
+font-family: 'Roboto', serif;
+font-weight: 300;
+font-size: 29px;
+          
+}
+
+
+
+
+.manualidad-paso-uno{
+width: 100%;
+}
+
+.manualidad-estructura{
+width: 70%;
+margin: auto;
+justify-content: center;
+align-content: center;
+display: flex;
+padding: 60px 0px 30px 0px;
+}
+
+.manualidad-habitacion{
+width: 30%;
+position: relative;
+    
+
+}
+
+.manualidad-habitacion img{
+border-radius: 75px;
+padding:  0px; 
+}
+
+.manualidad-boton{
+display: block;
+position: absolute;
+left: 180px;
+bottom: 30px;
+z-index: 10;
+background-color: #eaf9bd;
+border-radius: 25px;
+padding: 5px;
+font-family: 'Roboto',sans-serif;300;
+color: #7cb814;
+
+
+
+}
+
+.manualidad-texto{
+padding: 100px 0px 0px 0px;
+width: 40%;
+color: #777;
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+font-size: 19px;
+
+}
+
+
+/*sección dos manualidad*/
+
+
+
+.manualidad-paso-dos{
+width: 100%;
+}
+
+.manualidad-estructura-dos{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
+left: 20px;
+padding: 0px 0px 30px 0px;
+}
+
+
+.manualidad-texto-dos{
+width: 40%;
+color: #777;
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+font-size: 19px;
+padding: 90px 40px 0px 0px
+}
+
+
+.manualidad-habitacion-dos{
+width: 30%;
+position: relative;
+}
+
+.manualidad-habitacion-dos img{
+border-radius: 75px;
+
+}
+
+
+.manualidad-boton-dos{
+display: block;
+position: absolute;
+left: 30px;
+bottom: 30px;
+z-index: 10;
+background-color: #eaf9bd;
+border-radius: 25px;
+padding: 5px;
+font-family: 'Roboto',sans-serif;300;
+color: #7cb814;
+}
+
+
+/*sección 3 manualidad*/
+
+
+.manualidad-paso-tres{
+width: 100%;
+}
+
+.manualidad-estructura-tres{
+width: 70%;
+margin: auto;
+justify-content: center;
+align-content: center;
+display: flex;
+padding: 10px 0px 30px 0px;
+}
+
+.manualidad-habitacion-tres{
+width: 30%;
+position: relative;
+    
+
+}
+
+.manualidad-habitacion-tres img{
+border-radius: 75px;
+padding:  0px; 
+}
+
+.manualidad-boton-tres{
+display: block;
+position: absolute;
+left: 180px;
+bottom: 30px;
+z-index: 10;
+background-color: #eaf9bd;
+border-radius: 25px;
+padding: 5px;
+font-family: 'Roboto',sans-serif;300;
+color: #7cb814;
+
+
+
+}
+
+.manualidad-texto-tres{
+padding: 90px 0px 0px 0px;
+width: 35%;
+color: #777;
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+font-size: 19px;
+
+}
+
+
+/*sección manualidad cuatro*/
+
+
+
+.manualidad-paso-cuatro{
+width: 100%;
+}
+
+.manualidad-estructura-cuatro{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
+left: 20px;
+padding: 0px 0px 30px 0px;
+}
+
+
+.manualidad-texto-cuatro{
+width: 43%;
+color: #777;
+font-family: 'Roboto',sans-serif;
+padding: 0px 20px 0px 0px;
+font-weight: 300;
+font-size: 19px;
+}
+
+
+.manualidad-habitacion-cuatro{
+width: 30%;
+position: relative;
+}
+
+.manualidad-habitacion-cuatro img{
+border-radius: 75px;
+
+}
+
+
+.manualidad-boton-cuatro{
+display: block;
+position: absolute;
+left: 30px;
+bottom: 30px;
+z-index: 10;
+background-color: #eaf9bd;
+border-radius: 25px;
+padding: 5px;
+font-family: 'Roboto',sans-serif;300;
+color: #7cb814;
+}
+
+
+
+
+
+
+
+
+/*sección manualidad cinco*/
+
+
+
+
+.manualidad-paso-cinco{
+width: 100%;
+}
+
+.manualidad-estructura-cinco{
+width: 70%;
+margin: auto;
+justify-content: center;
+align-content: center;
+display: flex;
+padding: 10px 0px 30px 0px;
+}
+
+.manualidad-habitacion-cinco{
+width: 30%;
+position: relative;
+    
+
+}
+
+.manualidad-habitacion-cinco img{
+border-radius: 75px;
+padding:  0px; 
+}
+
+.manualidad-boton-cinco{
+display: block;
+position: absolute;
+left: 180px;
+bottom: 30px;
+z-index: 10;
+background-color: #eaf9bd;
+border-radius: 25px;
+padding: 5px;
+font-family: 'Roboto',sans-serif;
+font-weight: 400;
+color: #7cb814;
+
+
+
+}
+
+.manualidad-texto-cinco{
+width: 42%;
+color: #777;
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+font-size: 19px;
+
+}
+
+
+
+
+/*sección manualidad seis*/
+
+
+
+.manualidad-paso-seis{
+width: 100%;
+}
+
+.manualidad-estructura-seis{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
+left: 20px;
+padding: 0px 0px 30px 0px;
+}
+
+
+.manualidad-texto-seis{
+
+width: 43%;
+color: #777;
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+font-size: 19px;
+padding: 0px 20px 0px 0px
+}
+
+
+.manualidad-habitacion-seis{
+width: 30%;
+position: relative;
+}
+
+.manualidad-habitacion-seis img{
+border-radius: 75px;
+
+}
+
+
+.manualidad-boton-seis{
+display: block;
+position: absolute;
+left: 30px;
+bottom: 30px;
+z-index: 10;
+background-color: #eaf9bd;
+border-radius: 25px;
+padding: 5px;
+font-family: 'Roboto',sans-serif;300;
+color: #7cb814;
+}
+
+
+
+/*boton de descarga*/
+
+.manualidad-boton-descarga{
+width: 100%;
+}
+
+
+.manualidad-estructura-descarga{
+width: 70%;
+display:  flex;
+}
+
+
+
+
+
+
+.boton-descarga{
+padding: 30px;
+}
+
+.boton-descarga a{
+text-decoration: none;
+background-color: #9bd040;
+color: #fff;
+height: 40px;
+width: 178px;
+position: absolute;
+top: 0px;
+left: 420px;
+border-radius: 35px;
+text-align: center;
+line-height: 40px;
+font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 15px;
+}
+
+
+
+/*estilos home*/
+
+
+
+.home-seccion-dos{
+width: 100%;
+}
+
+.estructura-home-seccion-dos{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-content: center;
+padding: 00px 0px 30px 0px;
+}
+
+
+.contenedor-uno{
+width: 85%;
+display:flex;
+top: 240px;
+}
+
+
+.rectangulo-uno{
+float: left;
+border: #ededed 2px solid;
+border-radius: 25px;
+background-color: #fff;
+box-shadow: 0px 3px 9px #bcbcbc;  
+height: 130px ;
+width: 300px;
+padding: 1em;
+margin: 1em;
+
+}
+
+.rectangulo-uno img{
+position: absolute;
+z-index: 10px;
+border-radius: 10px;
+width: 95px;
+
+ 
+}
+
+
+.rectangulo-uno h1{
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+color: #59840e;
+text-align:  left;
+margin: auto;
+width: 10%;
+padding: 4px 0px 10px 0px;
+}
+
+
+
+.rectangulo-dos{
+float: left;
+border: #ededed 2px solid;
+border-radius: 25px;
+background-color: #fff;
+box-shadow: 0px 3px 9px #bcbcbc;  
+height: 130px ;
+width: 300px;
+padding: 1em;
+margin: 1em;    
+display: flex;
+}
+
+
+.rectangulo-dos img{
+position: absolute;
+z-index: 40px;
+border-radius: 10px;
+width: 95px;
+    
+}
+
+.rectangulo-dos h1{
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+color: #59840e;
+text-align:  left;
+margin: auto;
+width: 20%;
+padding: 0px 0px 0px 10px;
+}
+
+
+
+
+.rectangulo-tres{
+float: left;
+border: #ededed 2px solid;
+border-radius: 25px;
+background-color: #fff;
+box-shadow: 0px 3px 9px #bcbcbc;  
+height: 130px ;
+width: 300px;
+padding: 1em;
+margin: 1em;    
+display: flex;
+}
+
+
+.rectangulo-tres img{
+position: absolute;
+z-index: 40px;
+border-radius: 10px;
+width: 95px;
+    
+}
+
+.rectangulo-tres h1{
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+color: #59840e;
+text-align:  left;
+margin: auto;
+width: 20%;
+padding: 0px 0px 0px 10px;
+}
+
+
+
+
+
+
+.home-titulo-uno{
+padding: 70px 0px 0px 0px;
+font-family: 'Roboto', sans-serif;
+color: #9bd040;
+}
+
+.home-titulo-uno h1{
+font-weight: 300;
+font-size: 32px;
+justify-content: center;
+text-align: center;
+margin: auto;
+}
+
+.home-titulo-dos h1{
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 32px;
+justify-content: center;
+text-align: center;
+margin: auto;
+padding: 90px 0px 40px 0px;
+color: #9bd040;
+}
+
+
+
+
+
+
+
+
+
+
+/* home seccion 3 */
+
+.home-seccion-tres{
+width: 100%;
+}
+
+.estructura-home-seccion-tres{
+width: 85%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-content: center;
+padding: 0px 0px 30px 0px;
+}
+
+
+.contenedor-tres{
+width: 70%;
+display:flex;
+top: 240px;
+
+}
+
+
+.rectangulo-cuatro{
+float: left;
+border: #ededed 2px solid;
+border-radius: 25px;
+background-color: #fff;
+box-shadow: 0px 3px 9px #bcbcbc;  
+height: 130px ;
+width: 300px;
+padding: 1em;
+margin: 1em;
+
+}
+
+.rectangulo-cuatro img{
+position: absolute;
+z-index: 10px;
+border-radius: 10px;
+width: 95px;
+
+ 
+}
+
+
+.rectangulo-cuatro h1{
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+color: #59840e;
+text-align:  left;
+margin: auto;
+width: 20%;
+padding: 5px 0px 10px 10px;
+}
+
+
+
+
+
+
+
+
+.rectangulo-cinco{
+float: left;
+border: #ededed 2px solid;
+border-radius: 25px;
+background-color: #fff;
+box-shadow: 0px 3px 9px #bcbcbc;  
+height: 130px ;
+width: 300px;
+padding: 1em;
+margin: 1em;    
+display: flex;
+}
+
+
+.rectangulo-cinco img{
+position: absolute;
+z-index: 40px;
+border-radius: 10px;
+width: 95px;
+    
+}
+
+.rectangulo-cinco h1{
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+color: #59840e;
+text-align:  left;
+margin: auto;
+width: 20%;
+padding: 0px 0px 0px 10px;
+}
+
+
+
+
+
+.rectangulo-seis{
+float: left;
+border: #ededed 2px solid;
+border-radius: 25px;
+background-color: #fff;
+box-shadow: 0px 3px 9px #bcbcbc;  
+height: 130px ;
+width: 300px;
+padding: 1em;
+margin: 1em;    
+display: flex;
+}
+
+
+.rectangulo-seis img{
+position: absolute;
+z-index: 40px;
+border-radius: 10px;
+width: 95px;
+    
+}
+
+.rectangulo-seis h1{
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+color: #59840e;
+text-align:  left;
+margin: auto;
+width: 20%;
+padding: 0px 0px 0px 10px;
+}
+
+
+
+
+
+
+.home-titulo-tres h1{
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 32px;
+justify-content: center;
+text-align: center;
+margin: auto;
+padding: 40px 0px 40px 0px;
+color: #9bd040;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* home sección cuatro*/
+
+.home-seccion-cuatro{
+width: 100%;
+}
+
+.estructura-home-seccion-cuatro{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-content: center;
+padding: 20px 0px 30px 0px;
+}
+
+
+.contenedor-cuatro{
+width: 75%;
+display:flex;
+top: 240px;
+
+}
+
+.imagen-vertical-uno{
+padding: 1em;
+
+}
+
+
+.imagen-vertical-uno img{
+border-radius: 35px;
+
+}
+
+
+.imagen-vertical-uno h1{
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+width: 190px;
+text-align: center;
+padding: 5px;
+}
+
+
+
+.imagen-vertical-dos{
+padding: 1em;
+
+}
+
+
+.imagen-vertical-dos img{
+border-radius: 35px;
+
+}
+
+
+
+.imagen-vertical-dos h1{
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+width: 190px;
+text-align: center;
+
+}
+
+
+
+
+
+
+.imagen-vertical-tres{
+padding: 1em;
+
+}
+
+
+.imagen-vertical-tres img{
+border-radius: 35px;
+
+}
+
+
+
+.imagen-vertical-tres h1{
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+width: 190px;
+text-align: center;
+
+}
+
+
+
+
+
+.imagen-vertical-cuatro{
+padding: 1em;
+
+}
+
+
+.imagen-vertical-cuatro img{
+border-radius: 35px;
+
+}
+
+
+
+.imagen-vertical-cuatro h1{
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+width: 190px;
+text-align: center;
+
+}
+
+
+
+
+
+.home-titulo-cuatro{
+font-family: 'Roboto', sans-serif;
+color: #9bd040;
+padding:  20px 0px;
+}
+
+.home-titulo-cuatro h1{
+font-weight: 300;
+font-size: 32px;
+justify-content: center;
+text-align: center;
+margin: auto;
+}
+
+
+
+
+
+/*seccióm cinco*/
+
+
+.home-seccion-cinco{
+width: 100%;
+}
+
+.estructura-home-seccion-cinco{
+width: 85%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-content: center;
+padding: 0px 0px 30px 0px;
+}
+
+
+.contenedor-cinco{
+width: 75%;
+display:flex;
+top: 240px;
+
+
+}
+
+
+.imagen-cuadrada-uno{
+padding: 1em;
+margin: 1em;
+}
+
+
+.imagen-cuadrada-uno img{
+border-radius: 35px;
+
+}
+
+
+.imagen-cuadrada-uno h1{
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+text-align: center;
+font-size: 15px;
+}
+
+
+
+
+
+.imagen-cuadrada-dos{
+padding: 1em;
+margin: 1em;
+}
+
+
+.imagen-cuadrada-dos img{
+border-radius: 35px;
+
+}
+
+.imagen-cuadrada-dos h1{
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+text-align: center;
+font-size: 15px;
+}
+
+
+
+
+.imagen-cuadrada-tres{
+padding: 1em;
+margin: 1em;
+}
+
+
+.imagen-cuadrada-tres img{
+border-radius: 35px;
+
+}
+
+
+.imagen-cuadrada-tres h1{
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+text-align: center;
+font-size: 15px;
+}
+
+
+.imagen-cuadrada-cuatro{
+padding: 1em;
+margin: 1em;
+}
+
+
+.imagen-cuadrada-cuatro img{
+border-radius: 35px;
+
+}
+
+.imagen-cuadrada-cuatro h1{
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+text-align: center;
+font-size: 15px;
+}
+
+
+
+
+.home-titulo-cinco{
+font-family: 'Roboto', sans-serif;
+color: #9bd040;
+padding:  20px 0px;
+}
+
+.home-titulo-cinco h1{
+font-weight: 300;
+font-size: 32px;
+justify-content: center;
+text-align: center;
+margin: auto;
+}
+
+
+
+
+
+
+/*Aquí empieza footer*/
+.footer{
+width: 100%;
+background-color: #9bd040;
+height: auto;
+text-align: center;
+}
+
+.contenedor-footer{
+padding: 40px;
+
+}
+
+
+.facebook-footer{
+padding: 10px 10px 0px 0px;
+}
+
+
+.twitter-footer{
+padding: 10px 7px 0px 0px;
+}
+.instagram-footer{
+padding: 10px 7px 0px 0px;
+}
+
+.social-media-footer{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.menu-foooter{
+top:35px;
+bottom:;
+right: ;
+left: 120px ;
+font-family: 'Roboto', sans-serif;
+}
+
+.menu-foooter ul{ 
+display: flex;
+list-style: none;
+justify-content: center;
+}
+.menu-foooter a {
+color: #fff;
+font-family: sans-serif, 'Roboto';
+text-decoration: none;
+text-decoration: none;
+display: block;
+padding: 10px 5px;
+
+}
+
+
+
+
+
+
+
+
